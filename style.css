@@ -7,6 +7,8 @@ header
     border: 1px solid orange;
     width: 30%;
 }
+
+/*! ##### SECTION 1 ##### */
 .avatar
 {
     width: 50%;
@@ -19,3 +21,5 @@ h1
 {
     font-size: 2rem;
 }
+
+/*! ##### SECTION 2 ##### */
