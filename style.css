@@ -1,0 +1,21 @@
+header
+{
+    height: 100px;
+}
+.header-div
+{
+    border: 1px solid orange;
+    width: 30%;
+}
+.avatar
+{
+    width: 50%;
+}
+h1
+{
+    font-weight: bold;
+}
+.star
+{
+    font-size: 2rem;
+}
