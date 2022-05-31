@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
+
 <body>
     <header class="bg-dark d-flex justify-content-between">
         <div class="header-div"></div>
@@ -28,15 +31,80 @@
         <div class="container d-flex flex-column align-items-center">
             <h2>PORTFOLIO</h2>
             <i class="bi bi-star-fill star"></i>
-            <img class="img-fluid rounded" src="/img/cabin.png" alt="">
-            <img class="img-fluid rounded" src="/img/cake.png" alt="">
-            <img class="img-fluid rounded" src="/img/circus.png" alt="">
-            <img class="img-fluid rounded" src="/img/game.png" alt="">
-            <img class="img-fluid rounded" src="/img/safe.png" alt="">
-            <img class="img-fluid rounded" src="/img/submarine.png" alt="">
+            <div class="row row-cols-md-2">
+                <img class="img-fluid rounded" src="/img/cabin.png" alt="">
+                <img class="img-fluid rounded" src="/img/cake.png" alt="">
+                <img class="img-fluid rounded" src="/img/circus.png" alt="">
+                <img class="img-fluid rounded" src="/img/game.png" alt="">
+                <img class="img-fluid rounded" src="/img/safe.png" alt="">
+                <img class="img-fluid rounded" src="/img/submarine.png" alt="">
+            </div>
+
         </div>
     </section>
 
+    <section class="about bg-success">
+        <div class="container d-flex flex-column align-items-center">
+            <h2>ABOUT</h2>
+            <i class="bi bi-star-fill star"></i>
+            <div class="row justify-content-center">
+
+                <P class="col-md">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet itaque placeat eligendi vero quas
+                        doloribus maxime explicabo quis consectetur magni numquam, minima dolores deleniti similique voluptas
+                        non, perferendis, neque soluta?</P>
+                <p class="col-md">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati perferendis mollitia omnis ea! Tempora
+                        non corporis quasi eveniet odit! Numquam unde architecto velit, fuga amet cumque harum possimus dolores
+                        doloremque?</p>
+                
+            </div>
+            <button type="button" class="btn btn-light"><i class="bi bi-download"></i> Download</button>
+           
+
+        </div>
+    </section>
+
+    <section class="contact">
+        <div class="container d-flex flex-column align-items-center">
+            <h2>CONTACT ME</h2>
+            <i class="bi bi-star-fill star"></i>
+        </div>
+    </section>
+
+    <section class="location bg-dark">
+        <div class="container d-flex flex-column align-items-center">
+
+            <div class="row text-center">
+                <div class="col-12 col-md-4">
+                    <h6>LOCATION</h6>
+                    <H6>2215 John Daniel Drive Clark, MO 54243</H6>
+                </div>
+                
+                <div class="col-12 col-md-4">
+                    <H6>AROUND THE WEB</H6>
+                    <div>
+                        <i class="bi bi-facebook"></i> <i class="bi bi-facebook"></i> <i class="bi bi-facebook"></i> <i class="bi bi-facebook"></i>
+                    </div>
+                </div>
     
+                <div class="col-12 col-md-4">
+                    <H6>ABOUT FREELANCER</H6>
+                    <H6>Freelance is a free to use, open source Bootstrap theme created by <a href=#>Start Bootstrap</a>.</H6>
+                </div>
+
+    
+            </div>
+
+
+        </div>
+    </section>
+
+    <footer class="bg-dark">
+        <div class="container d-flex flex-column align-items-center">
+            <p>copyright your websites 2019</p>
+        </div>
+    </footer>
+
+
 </body>
+
 </html>
