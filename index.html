@@ -13,21 +13,29 @@
 </head>
 
 <body>
-    <header class="bg-dark">
-        <ul class="nav nav-tabs py-2 d-flex justify-content-between">
-
-            <div>
-                <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="#">START BOOTSTRAP</a>
-                  </li>
+    <header class="">
+        <nav class="navbar navbar-expand-lg bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">START BOOTSTRAP</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#portfolio">PORTFOLIO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">ABOUT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">CONTACT</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-            <div>
-                <li class="nav-item">
-                    <a class="nav-link"><i class="bi bi-list"></i></a>
-                </li>
-            </div>
-
-        </ul>
+        </nav>
     </header>
 
     <section class="bootstrap bg-watergreen py-4">
@@ -39,54 +47,60 @@
         </div>
     </section>
 
-    <section class="portfolio py-4">
+    <section id="portfolio" class="portfolio py-4">
         <div class="container d-flex flex-column align-items-center">
             <h2>PORTFOLIO</h2>
             <i class="bi bi-star-fill star"></i>
             <div class="row row-cols-md-2 row-cols-lg-3">
-                <img class="img-fluid rounded" src="/img/cabin.png" alt="">
-                <img class="img-fluid rounded" src="/img/cake.png" alt="">
-                <img class="img-fluid rounded" src="/img/circus.png" alt="">
-                <img class="img-fluid rounded" src="/img/game.png" alt="">
-                <img class="img-fluid rounded" src="/img/safe.png" alt="">
-                <img class="img-fluid rounded" src="/img/submarine.png" alt="">
+                <img class="img-fluid " src="/img/cabin.png" alt="">
+                <img class="img-fluid" src="/img/cake.png" alt="">
+                <img class="img-fluid" src="/img/circus.png" alt="">
+                <img class="img-fluid" src="/img/game.png" alt="">
+                <img class="img-fluid" src="/img/safe.png" alt="">
+                <img class="img-fluid" src="/img/submarine.png" alt="">
             </div>
 
         </div>
     </section>
 
-    <section class="about bg-watergreen py-4">
+    <section id="about" class="about bg-watergreen py-4">
         <div class="container d-flex flex-column align-items-center">
             <h2>ABOUT</h2>
             <i class="bi bi-star-fill star"></i>
             <div class="row justify-content-center px-5">
-                <P class="col-md">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet itaque placeat eligendi vero quas
-                        doloribus maxime explicabo quis consectetur magni numquam, minima dolores deleniti similique voluptas
-                        non, perferendis, neque soluta?</P>
-                <p class="col-md">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati perferendis mollitia omnis ea! Tempora
-                        non corporis quasi eveniet odit! Numquam unde architecto velit, fuga amet cumque harum possimus dolores
-                        doloremque?</p>
-                
+                <P class="col-md">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet itaque placeat
+                    eligendi vero quas
+                    doloribus maxime explicabo quis consectetur magni numquam, minima dolores deleniti similique
+                    voluptas
+                    non, perferendis, neque soluta?</P>
+                <p class="col-md">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati perferendis
+                    mollitia omnis ea! Tempora
+                    non corporis quasi eveniet odit! Numquam unde architecto velit, fuga amet cumque harum possimus
+                    dolores
+                    doloremque?</p>
+
             </div>
-            <button type="button" class="btn btn-outline-secondary" disabled><i class="bi bi-download"></i> Download</button>
-           
+            <button type="button" class="btn btn-outline-secondary" disabled><i class="bi bi-download"></i>
+                Download</button>
+
 
         </div>
     </section>
 
-    <section class="contact py-4">
+    <section id="contact" class="contact py-4">
         <div class="container d-flex flex-column align-items-center">
             <h2>CONTACT ME</h2>
             <i class="bi bi-star-fill star"></i>
             <form>
-                <div class="row justify-content-center" >
+                <div class="row justify-content-center">
                     <input type="text" placeholder="Name" class="form-control" id="">
                     <input type="email" placeholder="Email Address" class="form-control" id="">
                     <input type="tel" placeholder="Phone Number" class="form-control" id="">
-                    <textarea name="message" placeholder="Message" class="form-control" id="" cols="10" rows="5"></textarea>
+                    <textarea name="message" placeholder="Message" class="form-control" id="" cols="10"
+                        rows="5"></textarea>
                 </div>
                 <button type="submit" class="btn btn-success mx-4 my-2">Send</button>
-              </form>
+            </form>
         </div>
     </section>
 
@@ -97,20 +111,22 @@
                     <h6>LOCATION</h6>
                     <H6>2215 John Daniel Drive Clark, MO 54243</H6>
                 </div>
-                
+
                 <div class="col-12 col-md-4">
                     <H6>AROUND THE WEB</H6>
                     <div>
-                        <i class="bi bi-facebook"></i> <i class="bi bi-facebook"></i> <i class="bi bi-facebook"></i> <i class="bi bi-facebook"></i>
+                        <i class="bi bi-facebook"></i> <i class="bi bi-facebook"></i> <i class="bi bi-facebook"></i> <i
+                            class="bi bi-facebook"></i>
                     </div>
                 </div>
-    
+
                 <div class="col-12 col-md-4">
                     <H6>ABOUT FREELANCER</H6>
-                    <H6>Freelance is a free to use, open source Bootstrap theme created by <a href=#>Start Bootstrap</a>.</H6>
+                    <H6>Freelance is a free to use, open source Bootstrap theme created by <a href=#>Start
+                            Bootstrap</a>.</H6>
                 </div>
 
-    
+
             </div>
 
 
@@ -123,7 +139,9 @@
         </div>
     </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
 
 </body>
 

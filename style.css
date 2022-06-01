@@ -22,6 +22,15 @@ h1
 }
 
 /*! ##### HEADER & JUMBO ##### */
+.navbar-toggler
+{
+    font-size: 0.5rem;
+    background-color: wheat;
+    border: 2px solid #7FFFD4;
+    border-radius: 500px;
+}
+
+
 .avatar
 {
     width: 60%;
@@ -29,6 +38,7 @@ h1
 .container img
 {
     padding: 40px;
+    border-radius: 80px;
 }
 
 /*! ##### ABOUT ##### */
@@ -47,7 +57,7 @@ h1
     display: inline-block;
     width: 90%;
     border: 1px solid white;
-    border-bottom: 1px solid lightgray;
+    border-bottom: 2px solid ghostwhite;
 }
 .form-control::placeholder
 {
