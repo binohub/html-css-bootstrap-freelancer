@@ -46,11 +46,11 @@ h1
 {
     width: 60%;
     font-weight: bold;
-    font-size: 0.5rem;
+    font-size: 0.8rem;
 }
 .about .btn 
 {
-    font-size: 0.5rem;
+    font-size: 1rem;
 }
 .form-control
 {
@@ -77,12 +77,12 @@ h1
 .location .container .row .col-12 i
 {
     font-size: 2rem;
-    margin: 0 5px;
+    margin: 0.8px;
     cursor: pointer;
 }
 /*! ##### FOOTER ##### */
 footer p 
 {
 
-    font-size: 0.5rem;
+    font-size: 0.8rem;
 }
