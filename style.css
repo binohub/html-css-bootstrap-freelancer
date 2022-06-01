@@ -10,7 +10,7 @@ h1
     margin-bottom: 20px;
 }
 /*! ##### BACKGROUND ##### */
-.bg-dark
+.bg-dark *
 {
     color: white;
     font-weight: bold;
@@ -22,18 +22,6 @@ h1
 }
 
 /*! ##### HEADER & JUMBO ##### */
-header
-{
-    height: 100px;
-}
-.header-div
-{
-    border: 1px solid orange;
-    width: 30%;
-}
-
-
-
 .avatar
 {
     width: 60%;
